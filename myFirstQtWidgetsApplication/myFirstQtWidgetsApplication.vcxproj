@@ -87,14 +87,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <QtRcc Include="myFirstQtWidgetsApplication.qrc" />
+    <QtUic Include="GameSettingForm.ui" />
     <QtUic Include="myFirstQtWidgetsApplication.ui" />
     <QtMoc Include="myFirstQtWidgetsApplication.h" />
     <ClCompile Include="GameFrom.cpp" />
+    <ClCompile Include="GameSettingForm.cpp" />
     <ClCompile Include="myFirstQtWidgetsApplication.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="GameFrom.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GameSettingForm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
