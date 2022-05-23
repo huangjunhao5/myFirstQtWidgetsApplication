@@ -36,7 +36,7 @@ void GameFrom::OnClick(int x, int y) {
 	s += QString::number(x, 10);
 	s += " ";
 	s += QString::number(y, 10);
-	QMessageBox::information(this, "标题", s, "我是文本");
+	QMessageBox::information(this, "鏍囬", s, "鎴戞槸鏂囨湰");
 }
 
 GameFrom::~GameFrom()

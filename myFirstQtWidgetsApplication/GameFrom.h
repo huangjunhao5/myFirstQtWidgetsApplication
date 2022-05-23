@@ -10,6 +10,6 @@ public:
 	GameFrom(QWidget* parent = Q_NULLPTR);
 	~GameFrom();
 	int mp[16][16];
-private slots:
+public slots:
 	void OnClick(int x, int y);
 };
