@@ -7,9 +7,7 @@ class GameFrom : public QWidget
 	Q_OBJECT
 
 public:
-	GameFrom(QWidget* parent = Q_NULLPTR);
+	GameFrom(QWidget *parent = Q_NULLPTR);
 	~GameFrom();
 	int mp[16][16];
-private slots:
-	void OnClick(int x, int y);
 };
