@@ -12,7 +12,7 @@ GameFrom::GameFrom(QWidget* parent)
 	QPushButton** bt = new QPushButton * [16];
 	QHBoxLayout* la = new QHBoxLayout[16];
 	QVBoxLayout* va = new QVBoxLayout;
-	for (int i = 0; i <= 15; i++) {
+	for (int i = 1; i <= 15; i++) {
 		bt[i] = new QPushButton[16];
 		for (int j = 1; j <= 15; j++) {
 			QSizePolicy tmp = bt[i][j].sizePolicy();
